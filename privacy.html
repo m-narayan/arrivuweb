@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>ArrivuApps</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="" />
+<meta name="author" content="" />
+<!-- css -->
+<link href="css/bootstrap.css" rel="stylesheet" />
+<link href="css/bootstrap-responsive.css" rel="stylesheet" />
+<link href="css/fancybox/jquery.fancybox.css" rel="stylesheet">
+<link href="css/jcarousel.css" rel="stylesheet" />
+<link href="css/cslider.css" rel="stylesheet" />
+<link href="css/flexslider.css" rel="stylesheet" />
+<link href="css/style.css" rel="stylesheet" />
+
+
+<!-- Theme skin -->
+<link id="t-colors" href="skins/green.css" rel="stylesheet" />
+<!-- boxed bg -->
+
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+<!-- Fav and touch icons -->
+<link rel="shortcut icon" href="favicon.ico" />
+</head>
+<body style="background:#1b1b1b;">
+<div id="wrapper">
+	<!-- toggle top area -->
+	<!--<div class="hidden-top">
+		<div class="hidden-top-inner container">
+			<div class="row">
+				<div class="span12">
+					<ul>
+						<li><strong>We are available for any custom works this month</strong></li>
+						<li>Main office: Springville center X264, Park Ave S.01</li>
+						<li>Call us <i class="icon-phone"></i> (123) 456-7890 - (123) 555-7891</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>-->
+	<!-- end toggle top area -->
+	<!-- start header -->
+	<header>
+	<div class="container ">
+		<!-- hidden top area toggle link -->
+		<!--<div id="header-hidden-link">
+			<a href="#" class="toggle-link" title="Click me you'll get a surprise" data-target=".hidden-top"><i></i>Open</a>
+		</div>
+		
+		<div class="row nomargin">
+			<div class="span12">
+				<div class="headnav">
+					<ul>
+						<li><a href="http://openlms.arrivuapps.com/subscription/new" data-toggle="modal"><i class="icon-user"></i> Sign up</a></li>
+						<li><a href="#mySignin" data-toggle="modal">Sign in</a></li>
+					</ul>
+				</div>
+				
+				<div id="mySignup" class="modal styled hide fade" tabindex="-1" role="dialog" aria-labelledby="mySignupModalLabel" aria-hidden="true">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+						<h4 id="mySignupModalLabel">Create an <strong>account</strong></h4>
+					</div>
+					<div class="modal-body">
+						<form class="form-horizontal">
+							<div class="control-group">
+								<label class="control-label" for="inputEmail">Email</label>
+								<div class="controls">
+									<input type="text" id="inputEmail" placeholder="Email">
+								</div>
+							</div>
+							<div class="control-group">
+								<label class="control-label" for="inputSignupPassword">Password</label>
+								<div class="controls">
+									<input type="password" id="inputSignupPassword" placeholder="Password">
+								</div>
+							</div>
+							<div class="control-group">
+								<label class="control-label" for="inputSignupPassword2">Confirm Password</label>
+								<div class="controls">
+									<input type="password" id="inputSignupPassword2" placeholder="Password">
+								</div>
+							</div>
+							<div class="control-group">
+								<div class="controls">
+									<button type="submit" class="btn">Sign up</button>
+								</div>
+								<p class="aligncenter margintop20">
+									Already have an account? <a href="#mySignin" data-dismiss="modal" aria-hidden="true" data-toggle="modal">Sign in</a>
+								</p>
+							</div>
+						</form>
+					</div>
+				</div>
+				
+				<div id="mySignin" class="modal styled hide fade" tabindex="-1" role="dialog" aria-labelledby="mySigninModalLabel" aria-hidden="true">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+						<h4 id="mySigninModalLabel">Login to your <strong>account</strong></h4>
+					</div>
+					<div class="modal-body">
+						<form class="form-horizontal">
+							<div class="control-group">
+								<label class="control-label" for="inputText">Username</label>
+								<div class="controls">
+									<input type="text" id="inputText" placeholder="Username">
+								</div>
+							</div>
+							<div class="control-group">
+								<label class="control-label" for="inputSigninPassword">Password</label>
+								<div class="controls">
+									<input type="password" id="inputSigninPassword" placeholder="Password">
+								</div>
+							</div>
+							<div class="control-group">
+								<div class="controls">
+									<button type="submit" class="btn">Sign in</button>
+								</div>
+								<p class="aligncenter margintop20">
+									Forgot password? <a href="#myReset" data-dismiss="modal" aria-hidden="true" data-toggle="modal">Reset</a>
+								</p>
+							</div>
+						</form>
+					</div>
+				</div>
+				
+				<div id="myReset" class="modal styled hide fade" tabindex="-1" role="dialog" aria-labelledby="myResetModalLabel" aria-hidden="true">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+						<h4 id="myResetModalLabel">Reset your <strong>password</strong></h4>
+					</div>
+					<div class="modal-body">
+						<form class="form-horizontal">
+							<div class="control-group">
+								<label class="control-label" for="inputResetEmail">Email</label>
+								<div class="controls">
+									<input type="text" id="inputResetEmail" placeholder="Email">
+								</div>
+							</div>
+							<div class="control-group">
+								<div class="controls">
+									<button type="submit" class="btn">Reset password</button>
+								</div>
+								<p class="aligncenter margintop20">
+									We will send instructions on how to reset your password to your inbox
+								</p>
+							</div>
+						</form>
+					</div>
+				</div>
+				
+			</div> 
+	</div>-->
+		<div class="row">
+			<div class="span4">
+				<div class="logo">
+					<a href="index.html"><img src="img/logo3.png" alt="" class="logo" /></a>
+				</div>
+			</div>
+			<div class="span8">
+				<div class="navbar navbar-static-top">
+					<div class="navigation">
+						<nav>
+						<ul class="nav topnav">
+							<li class="dropdown ">
+							<a href="pricingbox.html">Pricing </a>
+								</li>
+                                <li class="dropdown ">
+							<a href="about.html">About</a>
+								</li>
+                                <li class="dropdown ">
+							<a href="http://openlms.arrivuapps.com/subscription/new">Subscribe Now</a>
+								</li>
+	
+							<li>
+							<a href="contact.html">Contact </a>
+							</li>
+						</ul>
+						</nav>
+					</div>
+					<!-- end navigation -->
+				</div>
+			</div>
+		</div>
+	</div>
+	</header>
+	<!-- end header -->
+
+
+	<section id="content">
+	<div class="container" style="background:white;padding:60px;color:#000;">
+   
+		<div class="row">
+        
+			<div class="span12" >
+				 <h2>Privacy Policy</h2>
+					<p>This Privacy Policy is to inform our policies and procedures regarding the collection, use and disclosure of personal information we receive from users of Arrivusystems.com (this "Site"). This Privacy Policy applies only to information that you provide to us through this Site. We may update our privacy policy time to time, and we will notify you of any material changes by posting the new Privacy Policy on the Site at Privacy policy.</p>
+ <p>                   
+<strong>1.Collection: The Personally Identifiable Information We Collect</strong> <br>
+In the course of using this Site, you may provide us with personally identifiable information. This refers to information about you that can be used to contact or identify you, and information on your use of and activities at our Site that may be connected with you ("Personal Information"). Personal Information that we collect may include, but is not limited to, your name, phone number and email address. When you visit the Site, our servers automatically record information that your browser sends whenever you visit a website. This information may include, but is not limited to, your computer's Internet Protocol address, browser type, the web page you were visiting before you came to our Site and information you search for on our Site. Like many websites, we may also use "cookies" to collect information. A cookie is a small data file that we transfer to your computer's hard disk for record-keeping purposes. We may use "persistent cookies" to save your registration ID and login password for future logins to the Site; and we use "session ID cookies" to enable certain features of the Site, to better understand how you interact with the Site and to monitor aggregate usage and web traffic routing on the Site. You can instruct your browser, by changing its options, to stop accepting cookies or to prompt you before accepting a cookie from the websites you visit. If you do not accept cookies, however, you may not be able to use all portions of the Site or all functionality of our services.</p>
+<p><strong>2.How We Use Personal Information</strong><br>
+Personal Information is or may be used for the following purposes:<br>
+1.to provide and improve our Site, services, features and content,
+<br>2.to administer your use of our Site,
+<br>3.to enable you to enjoy and easily navigate the Site,
+<br>4.to better understand your needs and interests,
+<br>5.to fulfill requests you may make,
+<br>6.to personalize your experience,
+<br>7.to provide or offer software updates and product announcements, and
+<br>8.	to provide you with further information and offers from us or third parties that we believe you may find useful or interesting, including newsletters, marketing or promotional.
+We use information we obtain by technical means (such as the automatic recording performed by our servers or through the use of cookies) for the above purposes and in order to monitor and analyze use of the Site and our services, for the Site's technical administration, to increase our Site's functionality and user-friendliness, to better tailor it to your needs, to generate and derive useful data and information concerning the interests, characteristics and website use behavior of our users, and to verify that visitors to the Site meet the criteria required to process their requests.
+</p><p><strong>3.Information Sharing and Disclosure</strong><br>
+Users: We will display your Personal Information in your profile page and elsewhere on the Site according to the preferences you set in your account. Any information you choose to provide should reflect how much you want other Arrivu LMS users to know about you. We recommend that you guard your anonymity and sensitive information, and we encourage users to think carefully about what information about themselves they disclose in their profile pages. You can review and revise your profile information at any time.
+Service Providers, Business Partners and Others: We may employ third party companies and individuals to facilitate our service, to provide the service on our behalf, to perform Site-related services (including but not limited to data storage, maintenance services, database management, web analytics, payment processing, and improvement of the Site's features) or to assist us in analyzing how our Site and service are used. These third parties have access to your Personal Information only for purposes of performing these tasks on our behalf.</p><p>
+Compliance with Laws and Law Enforcement: Arrivu LMS cooperates with government and law enforcement officials and private parties to enforce and comply with the law. We will disclose any information about you to government or law enforcement officials or private parties as we, in our sole discretion, believe necessary or appropriate to respond to claims and legal process (including but not limited to subpoenas), to protect the property and rights of Arrivu LMS or a third party, to protect the safety of the public or any person, or to prevent or stop any activity we may consider to be, or to pose a risk of being, illegal, unethical, inappropriate or legally actionable.
+Business Transfers: Arrivu LMS may sell, transfer or otherwise share some or all of its assets, including your Personal Information, in connection with a merger, acquisition, reorganization or sale of assets or in the event of bankruptcy.</p>
+<p> <strong>
+4.Changing or Deleting Your Information</strong><br>
+You may review, update, correct or delete the Personal Information provided in your registration or account profile by changing your "account settings".
+</p>
+<p><strong>5.Security</strong><br>
+Arrivu LMS is very concerned with safeguarding your information. We employ reasonable measures designed to protect your information from unauthorized access.
+</p><p><strong>6.Data</strong><br>
+Arrivu LMS uses third party vendors and hosting partners to provide the necessary hardware, software, networking, storage, and related technology required to run the service. Although Arrivu LMS owns the code, databases, and all rights to the Arrivu LMS application, you retain all rights to your files and data.</p>
+<p>
+<strong>7.Contacting Us</strong><br>
+If you have any questions about this Privacy Policy, please contact us at: privacy at Arrivu LMS dot com.
+</p>
+				</div>
+			</div>
+		</div>
+		<!-- divider -->
+
+		<!-- end divider -->
+		<!-- Portfolio Projects -->
+       </section>
+	<!--<section id="bottom">
+	<div class="container">
+		<div class="row">
+			<div class="span12">
+				<div class="aligncenter">
+					<div id="twitter-wrapper">
+						<div id="twitter">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</section>-->
+			<footer>
+	<div class="container" style="width: 70%;">
+		<div class="row">
+			<div class="span3">
+				<div class="widget">
+					<h5 class="widgetheading">Browse pages</h5>
+					<ul class="link-list">
+				    <li><a href="about.html">About our company</a></li>
+						<!-- <li><a href="services.html">Our services</a></li>
+						<li><a href="team.html">Meet our team</a></li> -->
+						<!-- <li><a href="portfolio.html">Explore our portfolio</a></li> -->
+						<li><a href="contact.html">Get in touch with us</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="span3">
+				<div class="widget">
+					<h5 class="widgetheading">Important stuff</h5>
+					<ul class="link-list">
+						<li><a href="terms.html">Terms and conditions</a></li>
+						<li><a href="privacy.html">Privacy policy</a></li>
+						<li><a href="faq.html">FAQ</a></li>
+					</ul>
+				</div>
+			</div>
+			<!-- <div class="span3">
+				 <div class="widget">
+					<h5 class="widgetheading">Flickr photostream</h5>
+					<div class="flickr_badge">
+						<script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=8&amp;display=random&amp;size=s&amp;layout=x&amp;source=user&amp;user=34178660@N03"></script>
+					</div>
+					<div class="clear">
+					</div>
+				</div> 
+			</div> -->
+			<div class="span3">
+				<div class="widget">
+					<h5 class="widgetheading">Get in touch with us</h5>
+					<address>
+			      <strong>Arrivu Infotech Private Limited</strong><br>
+					 2/70 - 8, Anbu Nagar, Keelathachiarkulam, Therakalputhoor<br>
+					 Nagercoil, 629901, Tamil Nadu, India </address>
+					<p>
+						<i class="icon-phone"></i> +91-4652-272643<br>
+						<i class="icon-envelope-alt"></i> admin@arrivusystems.com
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="sub-footer">
+		<div class="container">
+			<div class="row">
+				<div class="span6">
+					<div class="copyright">
+						<p>
+							<span>&copy; Arrivu Systems 2013 All right reserved. </span>
+						</p>
+					</div>
+				</div>
+				<div class="span6">
+					<ul class="social-network">
+						<li><a href="https://facebook.com/arrivuapps" data-placement="bottom" title="Facebook"><i class="icon-facebook icon-square"></i></a></li>
+						<li><a href="https://twitter.com/arrivuapps" data-placement="bottom" title="Twitter"><i class="icon-twitter icon-square"></i></a></li>
+						<li><a href="htpps://linkedin.com/arrivuapps" data-placement="bottom" title="Linkedin"><i class="icon-linkedin icon-square"></i></a></li>
+						<li><a href="#" data-placement="bottom" title="Pinterest"><i class="icon-pinterest icon-square"></i></a></li>
+						<li><a href="https://plus.google.com/arrivuapps" data-placement="bottom" title="Google plus"><i class="icon-google-plus icon-square"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	</footer></div>
+<a href="#" class="scrollup"><i class="icon-chevron-up icon-square icon-32 active"></i></a>
+<!-- javascript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+
+</body>
+</html>
