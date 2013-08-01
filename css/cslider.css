@@ -5,13 +5,15 @@
 	position: relative;
 	margin: 0 auto;
 	overflow: hidden;
-	background: #fbfbfb url(../img/bodybg/slider.jpg) repeat 0% 0%;
+	background: #fbfbfb url(../img/bodybg/slider.jpg);
 	-webkit-transition: background-position 1s ease-out 0.3s;
 	-moz-transition: background-position 1s ease-out 0.3s;
 	-o-transition: background-position 1s ease-out 0.3s;
 	-ms-transition: background-position 1s ease-out 0.3s;
 	transition: background-position 1s ease-out 0.3s;
-	background-size: 100%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+
 }
 .da-slide{
 	position: absolute;

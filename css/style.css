@@ -215,7 +215,7 @@ img.img-polaroid {
 
 /* --- header -- */
 header{
-	background-color: #393939;
+background-color: #393939;
 background-image: -moz-linear-gradient(top,#484848,#222222);
 background-image: -webkit-gradient(linear,0 0,0 100%,from(#484848),to(#222222));
 background-image: -webkit-linear-gradient(top,#484848,#222222);
@@ -2561,7 +2561,6 @@ article img.pull-right, article .align-right{
 	header .logo {
 		margin:0 auto;
 		text-align:center;
-		margin-top:20px;
 		float:none;
 	}
 
